@@ -1,0 +1,104 @@
+    1  pwd
+    2  cd Desktop/
+    3  mkdir HelloCMD
+    4  cd HelloCMD/
+    5  cd Desktop/
+    6  cd Story/
+    7  ls
+    8  ls -a
+    9  cd Desktop/
+   10  mkdir pre-bootcamp-coding-challenges
+   11  cd pre-bootcamp-coding-challenges/
+   12  ls -a
+   13  git init
+   14  ls -a
+   15  git status
+   16  touch README.md
+   17  ls -a
+   18  git status
+   19  git log
+   20  git add  README.md
+   21  git status
+   22  git ls -a
+   23  ls -a
+   24  git status
+   25  git add .
+   26  git status
+   27  git log
+   28  git commit -m "Initial commit of every task"
+   29  git status
+   30  git log
+   31  q
+   32  clear
+   33  cd ..
+   34  clear
+   35  mkdir git-basic-exercises
+   36  cd git
+   37  cd git-basic-exercises/
+   38  ls -a
+   39  git init
+   40  ls -1
+   41  ls -a
+   42  git status
+   43  touch README.md
+   44  ls -a
+   45  git status
+   46  git log
+   47  git add README.md
+   48  git status
+   49  git rm --cached README.md
+   50  git status
+   51  git add README.md
+   52  git status
+   53  git commit -m "initial commit"
+   54  git log
+   55  q
+   56  nano README.md
+   57  cat README.md
+   58  git status
+   59  git stats
+   60  git add README.md
+   61  git status
+   62  clear
+   63  git commit -m "second commit"
+   64  nano README.md
+   65  cat README.md
+   66  git status
+   67  git commit -a -m "third commit"
+   68  git status
+   69  git log
+   70  q
+   71  clear
+   72  git log
+   73  q
+   74  git checkout 95041447063c404835972d88cc0a87ae22820ff9
+   75  cat README.md
+   76  git checkout master
+   77  cat README.md
+   78  clear
+   79  git branch
+   80  git branch milkshake-flavours
+   81  git branch
+   82  git checkout milkshake-flavours
+   83  git branch
+   84  nano milkshakes.md
+   85  clear
+   86  git status
+   87  git commit -a -m "added initial flavours"
+   88  git status
+   89  git commit -a milkshakes.md -m "added initial flavours"
+   90  git add milkshakes.md
+   91  git commit -m "added initial flavours"
+   92  git status
+   93  git log
+   94  q
+   95  clear
+   96  git checkout master
+   97  git status
+   98  ls -a
+   99  git checkout branch
+  100  git checkout master
+  101  git checkout -b history
+  102  git log
+  103  git branch
+  104  history > history.txt
